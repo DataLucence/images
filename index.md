@@ -70,6 +70,22 @@ I know...
 
 *   ...FIXME: major landmarks in their mental model.
 
+#### Basic Concepts
+
+![Basic Concepts](fig/basic-image-intro-concept-map-small.jpg)
+
+#### Organizing and Curating Images
+
+![Organizing and Curating Images](fig/organizing-curating-image-data-concept-map-small.jpg)
+
+#### Preprocessing
+
+![Preprocessing](fig/preprocessing-concept-map-small.jpg)
+
+#### Quantification
+
+![Quantification](fig/quantification-concept-map-small.jpg)
+
 ## Stage 3: Learning Plan
 
 ### Summative Assessments

@@ -11,7 +11,7 @@ import sys, codecs
 #You may need to do this for your script to work with GitX or Tower:
 #sys.path.append("/Users/chris/anaconda/envs/conda/lib/python2.7/site-packages")
 
-from IPython import nbformat as fmt
+import nbformat as fmt
 
 def strip_output(nb):
     """strip the outputs from a notebook object"""

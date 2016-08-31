@@ -1,0 +1,61 @@
+Day 1: What is an image?
+Associated learning goal: Understand what a digital image is and how it is commonly represented as bits and bytes.
+Loading and viewing images
+Load image into iPython notebook
+view image in iPython notebook
+get bit depth of image
+Indexing and arrays
+Print a subset of pixel values (such as the top right corner)
+Set that subset of values to 0
+View the modified image in iPython
+Histogram the pixel values in the image
+File size, disk space, and memory
+Report the size of the file on the disk
+Report the size of the file read into memory
+Save the file in another format (png, maybe?) and then report the file size on disk
+
+Day 2: Data management
+Associated learning goal: Find, install, call, and understand documentation for code that others have developled.
+Reshaping images: the importance of metadata
+load a 1-D array
+Based on knowledge of bit depth and potential dimensions, reshape the 1-D array into a 2-D or 3-D image (we argued at length which would be more appropriate)
+discussion of what metadata is
+Access metadata embedded in a TIFF
+Write a Json metadata file
+Read in a Json metadata file
+Take the image from exercise #1 and save into HDF5, store the metadata
+Use the terminal to move and rename files
+Bonus: Use grep to search metadata and move files based on this information
+
+Day 3: Pre-processing part 1
+Associated learning goal:  Preprocess image data without introducing bias in downstream analysis.
+
+Notes: We were very unsure of how best to present this lesson. There was a lot of discussion about whether the concept of a pipeline depended heavily on understanding what the potential preprocessing steps are.
+
+Fix shot noise in the image
+using a mean filter
+Background subtraction
+rolling ball
+Thresholding
+determine the threshold manually with a sliding bar GUI (to be provided by TAs)
+determine the background in an automated way using Otsu's method and subtract this background
+Discuss the concept of a pre-processing pipeline
+Order the pre-processing steps for the pipeline based on the optical path
+
+Day 4: Pre-processing part 2
+Registration
+Deconvolution
+long pre-processing exercise
+
+Day 5: Data quantification
+Associated learning goal: Automate and loop quantification of multiple image datasets by counting cells, measuring intensity, finding ROIs, and tracking objects.
+
+Identify objects in a fluorescence image
+threshold, make mask
+morphological operations-fill holes in mask
+identify the connected regions as belonging to the same object
+Inspect object properties (size, shape, centroid, total fluorescent intensity)
+Filter objects based on properties (for example, to remove mislabeled objects)
+Project the object mask through time to get a trace
+The example of this would be to take a mask of a neuron, for example, which was determined from the first time point and use the pixels assigned to the neuron to determine how the total calcium signal changes over time within those assigned pixels)
+Other things that were cut: tracking moving objects, watershed segmentation, kymographs, FRET/colocalization

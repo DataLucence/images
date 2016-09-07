@@ -25,5 +25,6 @@ def strip_output(nb):
 if __name__ == '__main__':
     nb = fmt.read(sys.stdin, fmt.NO_CONVERT)
     nb = strip_output(nb)
-    sys.stdout = codecs.getwriter('utf8')(sys.stdout)
+    if sys.version_info < (3, 0):
+        sys.stdout = codecs.getwriter('utf8')(sys.stdout)
     fmt.write(nb, sys.stdout, fmt.NO_CONVERT)

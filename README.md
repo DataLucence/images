@@ -10,6 +10,8 @@ To get up and running with this course, you will need
 
 1) Git. You'll want the command line interface. See [these downloads](https://git-scm.com/downloads)
 2) A scientific Python distribution. You can get set up through pip piecemeal, but it's much easier to just grab [Anaconda](https://www.continuum.io/downloads). Please get the Python 3.5 verison.
+3) Some additional Python packages.
+- `pip install moviepy`
 
 ## Development
 

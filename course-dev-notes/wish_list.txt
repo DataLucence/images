@@ -1,0 +1,9 @@
+Section on non-rank filters (Gaussian blur, bandpass, Laplacian, LoG) for preprocessing or object detection. Follows morphological operations or preprocessing. 
+
+Tracking multiple objects??
+
+FRET
+
+colocalization (fuzzy concept?)
+
+Morphological image processing in a case where the shape really matters (measure tortuosity or change in size, for example)

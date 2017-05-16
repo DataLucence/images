@@ -1,0 +1,30 @@
+ quick trial run, we wanted students to be able to run python 3 in jupyter notebooks (for student exercises/assessments) without requiring Anaconda installation. However, the instance of Cloud 9 failed on the actual day of the presentation, so students could see (but not run) the sample exercises. That said, this is the feedback we got. I (Leanna) thought it was running before I started, so am not confident that Cloud 9 is impossible but needs to be made more robust before trying again on a group. 
+
+Lost some time trying to decide if some of the students might be able to access the student version of the code and run it (none could with their current setups easily) and so presented them with the link to view the notebook in Cloud 9 (but not run the cells unfortunately). Ran through Most of Day 1, Git commit ID 94de3af3b04719e165c4b76b0e202ba8f39af92c
+
+Context: ~10 PhD students and postdocs in a lab that does a lot of microscopy fluorescence quantification, engineers
+
+Feedback: 
+
+Yellow sticky: 
+I like the jupyter notebook format. Getting students to try code and see results immediately during class is super helpful.
+The examples are really nice bc can imagine that once it (it being jupyeter) works nicely
+I also like the way of going through "I don't know exactly how this function works..."
+Post-its are a nice tool!
+Using "imread?" and other function lookup. Nice to know have to learn new things.
+Good range of content and mixture of instruction and student assessments
+Looking at your finished and "student" versions of day 1's lesson, I like that you have the students writing their code as you go along. This definitely has helped me in classes in the past. 
+Nice examples 
+
+
+Blue sticky: 
+To show that an image is an array of numbers, maybe just show a matrix of intensity values.
+Might also want to convey that interpolate (and crop, and other commands) are matrix operations.
+What does visualization mean, as opposed to modifying original data? Is Python making a temporary copy of the image?
+I would like to see more motivation for the tools used. Why Seaborn, etc? If this info is not relevant to course, then don't take up class time talking about the libraries.
+Make functionality of commands more clear/obvious
+Be more concious of unfamiliar jargon
+pre-prepared examples of code to save time
+Connect new libraries to a one-line description like "seaborn #is used for..."
+go in a bit more background about image acquisition. Why might you want 16-bit? ––- I think this is covered in the part of the lesson that was not presented
+Maybe you will cover this in the pre-class workshop, but showing some basic python commands (ie printing, matrix values, calling certain values, ect.) on a random matrix of data before moving to the point that images = data would be helpful. Maybe cover indexing earlier & then just remind of students late? 

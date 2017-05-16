@@ -1,0 +1,1 @@
+{"pixel_size": [0.3459442, 0.3459442, 0.7694383], "raw_data_date": ["add_this"], "cell_type": "fibroblast", "channels": ["your_fav_protein", "nucleus", "actin"], "axes": ["ZXYTC"], "image_preprocessing_done": ["Noise_generator.ipynb", "Branch=day3-day4-rework", "GitCommitId=22ba02"]}
